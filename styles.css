@@ -16,6 +16,7 @@ body {
     border-style: solid;
     border
 }
+
 #head {
     font-size: 100px;
     text-align: center;
@@ -25,9 +26,10 @@ body {
     border-style: solid;
     border-width: 10px;
 }
+
 .list a{
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 25px;
     font-weight: bold;
     line-height: 100px;
@@ -37,10 +39,26 @@ body {
     margin-top: 100px;
 }
 
-.dish {
-    font-size: 50px;
+#dish-image {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
 }
 
-.dish-image {
-    width: 500px;
+.info {
+    margin-top: 50px;
+    line-height: 20px;
+    
+}
+
+.ingredients {
+    list-style: none;
+}
+
+#steps {
+    display: inline-block;
+    margin-left: 50px;
 }
