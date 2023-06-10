@@ -1,0 +1,46 @@
+* {
+    font-family:Helvetica, Arial,  sans-serif;
+    text-transform: uppercase;
+    color: #25291C;
+}
+
+body {
+    background-color: #E3E7D3;
+}
+.odin {
+    width: 300px;
+    margin-top:  100px;
+    margin-left: 100px;
+    float: left;
+    border: 10px;
+    border-style: solid;
+    border
+}
+#head {
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    margin: auto;
+    background-color: #E6E49F;
+    border-style: solid;
+    border-width: 10px;
+}
+.list a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 25px;
+    font-weight: bold;
+    line-height: 100px;
+}
+.list {
+    list-style: none;
+    margin-top: 100px;
+}
+
+.dish {
+    font-size: 50px;
+}
+
+.dish-image {
+    width: 500px;
+}
