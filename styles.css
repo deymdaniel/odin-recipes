@@ -1,63 +1,109 @@
 * {
-    font-family:Helvetica, Arial,  sans-serif;
-    text-transform: uppercase;
-    color: #25291C;
+  font-family: helvetica, arial, sans-serif;
 }
 
 body {
-    background-color: #E3E7D3;
-}
-.odin {
-    width: 300px;
-    margin-top:  100px;
-    margin-left: 100px;
-    float: left;
-    border: 10px;
-    border-style: solid;
-    border
+  background-color: #fefae0;
+  box-sizing: border-box;
 }
 
 #head {
-    font-size: 100px;
-    text-align: center;
-    font-weight: 900;
-    margin: auto;
-    background-color: #E6E49F;
-    border-style: solid;
-    border-width: 10px;
+  border-style: solid;
+  margin: 10px 100px;
+  border-width: 8px;
+  padding: 8px;
+  color: #ccd5ae;
+  display: flex;
+  justify-content: space-between;
 }
 
-.list a{
-    text-decoration: none;
-    font-size: 30px;
-    margin-left: 25px;
-    font-weight: bold;
-    line-height: 100px;
-}
-.list {
-    list-style: none;
-    margin-top: 100px;
+span {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #d4a373;
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
-#dish-image {
-    width: 400px;
-    margin-left: 50px;
-    margin-top: 50px;
-    float: left;
-    border-style: solid;
-    border-width: 10px;
+.odin {
+  width: 70px;
+  justify-content: right;
+  margin-bottom: -8px;
+}
+
+#recipe {
+  margin: 100px 200px;
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  font-size: ;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links {
+  list-style: none;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#recipe .recipe-picture {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ccd5ae;
+}
+.recipe-picture {
+  display: block;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.egg .recipe-picture {
+  height: 200px;
+}
+/* recipe pages */
+
+#recipe-name {
+  border-style: solid;
+  margin: 10px 100px;
+  border-width: 8px;
+  padding: px;
+  color: #d4a373;
+  border-color: #ccd5ae;
+  display: flex;
+  justify-content: space-between;
+}
+
+.food {
+  width: 300px;
+  display: inline-block;
+  border: #ccd5ae;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.card {
+  margin: 10px 200px;
+  display: inline-block;
 }
 
 .info {
-    margin-top: 50px;
-    line-height: 20px;
-    
+  display: inline-block;
+  color: #d4a373;
+  margin-left: 20px;
 }
 
-.ingredients {
-    list-style: none;
-}
-
-#steps {
-    margin-top: 110px;
+.steps {
+  margin: 10px 200px;
+  border-color: #ccd5ae;
+  border-style: solid;
+  border-width: 10px;
+  padding: 10px;
+  color: #d4a373;
 }
